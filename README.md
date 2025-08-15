@@ -66,7 +66,6 @@ src/
   store/            # Zustand state management
   TipTapEditor/     # TipTap configuration and extensions
   data/             # Local JSON database
-  styles/           # CSS files
 ```
 
 ---
@@ -74,7 +73,7 @@ src/
 ## 🚀 Setup Instructions
 1. Clone this repository  
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/shashanksinghsagar/vettam-ai-application.git
    cd vettam-ai-application
    ```
 
@@ -104,10 +103,6 @@ Currently, the main focus is on **Text Editing Mode**.
 - Routing is not yet implemented.  
 - Exporting and database integration features will be added in future releases.  
 
----
-
-## 🖼 Preview
-![Vettam AI Application Screenshot](Vettam.png)
 
 ---
 

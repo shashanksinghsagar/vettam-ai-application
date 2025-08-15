@@ -1,46 +1,115 @@
-# Getting Started with Create React App
+# VETTAM-AI-APPLICATION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Overview
+**VETTAM-AI-APPLICATION** is a React + TypeScript application designed to provide a high-quality, lawyer-friendly text editing experience using the TipTap library.  
+The project consists of two main parts:  
 
-## Available Scripts
+1. **Dynamic Sidebar**  
+   - Built with **Zustand** for state management.  
+   - Implements **SOLID principles** and follows the **Atomic Design Pattern**.  
+   - Highly customizable button-based UI (routing not yet implemented).  
 
-In the project directory, you can run:
+2. **Advanced Text Editor**  
+   - Powered by **TipTap**.  
+   - Designed for lawyers to create, format, and manage professional documents.  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Tech Stack
+- **Frontend:** React, TypeScript, CSS  
+- **Editor:** TipTap  
+- **State Management:** Zustand  
+- **Architecture:** Atomic Design Pattern, SOLID Principles  
+- **Database:** Local JSON file (for now)  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 📦 Dependencies
+Key dependencies used in this project:  
+- `@tiptap/core`  
+- `@tiptap/react`  
+- `@tiptap/starter-kit`  
+- `@tiptap/extension-*` (Color, Font Family, Highlight, Link, Subscript, Superscript, Table, Text Align, Text Style, Underline, etc.)  
+- `zustand`  
+- `typescript`  
+- `react`, `react-dom`  
+- `webpack`  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For the full list, see the `package.json` file.  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
+### Sidebar
+- Multiple button options (routing not yet implemented)  
+- Dynamic active button state  
+- Built with Zustand, SOLID, and Atomic design  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Text Editor
+- **Font Family** (Arial, Georgia, Times New Roman, Courier New)  
+- **Font Size** control  
+- **Heading Levels** (H1, H2, H3, etc.)  
+- **Text Formatting:** Bold, Italic, Underline, Strikethrough  
+- **Links**  
+- **Text Color & Highlight**  
+- **Bullet & Ordered Lists**  
+- **Table Support**  
+- **Custom Styles** for UI  
+- Switch between **Text** and **Page** mode (Page mode in progress)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Project Structure
+```
+src/
+  components/       # Atomic design-based components
+  store/            # Zustand state management
+  TipTapEditor/     # TipTap configuration and extensions
+  data/             # Local JSON database
+  styles/           # CSS files
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Setup Instructions
+1. Clone this repository  
+   ```bash
+   git clone <your-repo-url>
+   cd vettam-ai-application
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Install dependencies  
+   ```bash
+   npm install
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Start the development server  
+   ```bash
+   npm start
+   ```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📖 Usage
+Currently, the main focus is on **Text Editing Mode**.  
+1. Start the app.  
+2. Use the sidebar to select **Text Mode**.  
+3. Apply font styles, colors, highlights, headings, and more.  
+4. (Future) Export or save documents.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## 📌 Notes
+- **Page Mode** is under development.  
+- Routing is not yet implemented.  
+- Exporting and database integration features will be added in future releases.  
+
+---
+
+## 🖼 Preview
+![Vettam AI Application Screenshot](Vettam.png)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License. You are free to use and modify it.  

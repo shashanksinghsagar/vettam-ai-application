@@ -1,13 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbb1a73e.css",
-    "main.js": "/static/js/main.429ec200.js",
-    "index.html": "/index.html",
-    "main.cbb1a73e.css.map": "/static/css/main.cbb1a73e.css.map",
-    "main.429ec200.js.map": "/static/js/main.429ec200.js.map"
+    "main.css": "/vettam-ai-application/static/css/main.2952ad47.css",
+    "main.js": "/vettam-ai-application/static/js/main.b6068f54.js",
+    "static/media/chatImage.png": "/vettam-ai-application/static/media/chatImage.67502a595862c9c07daf.png",
+    "static/media/vettam_icon.png": "/vettam-ai-application/static/media/vettam_icon.e3914c6459c284107907.png",
+    "static/media/karu-regular.ttf": "/vettam-ai-application/static/media/karu-regular.d06704b8d2dfbb87058d.ttf",
+    "static/media/karu-medium.ttf": "/vettam-ai-application/static/media/karu-medium.9c8eef363a662cf63f82.ttf",
+    "static/media/karu-bold.ttf": "/vettam-ai-application/static/media/karu-bold.0bb530a75fe88b9e2678.ttf",
+    "static/media/image.png": "/vettam-ai-application/static/media/image.a0cb8361eaa1112fb4f4.png",
+    "static/media/pdf-image.png": "/vettam-ai-application/static/media/pdf-image.a6ad30774ab00ee2dc45.png",
+    "static/media/Translate.svg": "/vettam-ai-application/static/media/Translate.b1baba1d5cf7d974f43a29b26e1c1fbc.svg",
+    "static/media/Write.svg": "/vettam-ai-application/static/media/Write.080dd9060ab5a3e6c4f3ca398c34eb4e.svg",
+    "static/media/Research.svg": "/vettam-ai-application/static/media/Research.ba26f443c6ae76b5b24bdb73b97b0732.svg",
+    "static/media/Workspace.svg": "/vettam-ai-application/static/media/Workspace.7cafcbf754f2ba3b862b18840c295b1f.svg",
+    "static/media/NotePencil.svg": "/vettam-ai-application/static/media/NotePencil.62661edf973300c13bf389ab2e53b3bf.svg",
+    "static/media/ChatText.svg": "/vettam-ai-application/static/media/ChatText.70c9fcbfaa0557c4f9176a23a06d4632.svg",
+    "static/media/BookMarks.svg": "/vettam-ai-application/static/media/BookMarks.30b2429b2d3228e0028a9858acb7737c.svg",
+    "static/media/Editor.svg": "/vettam-ai-application/static/media/Editor.7fce9e3cc35ae5e0fb4a16cac677971a.svg",
+    "index.html": "/vettam-ai-application/index.html",
+    "main.2952ad47.css.map": "/vettam-ai-application/static/css/main.2952ad47.css.map",
+    "main.b6068f54.js.map": "/vettam-ai-application/static/js/main.b6068f54.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbb1a73e.css",
-    "static/js/main.429ec200.js"
+    "static/css/main.2952ad47.css",
+    "static/js/main.b6068f54.js"
   ]
 }

@@ -1,0 +1,15 @@
+.chat-button {
+  width : 224px;
+  height : 31px;
+  padding: 6px 12px 6px 12px;
+  gap: 16px;
+  border-radius: 8px;
+  border: 0px;
+  background: rgba(224,122,83,1);
+  color: rgba(255,255,255,1);
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+}

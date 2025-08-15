@@ -1,0 +1,95 @@
+.page-header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.page-header-text {
+  display: flex;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.header-text {
+  margin-right: 15px;
+  font-weight: 400;
+}
+
+.logo{
+   width: 18px;
+   height: 16px;
+   margin-right: 15px;
+}
+
+.logo:hover {
+  filter: brightness(0) saturate(100%) invert(39%) sepia(95%) saturate(446%) hue-rotate(96deg) brightness(95%) contrast(89%);
+}
+
+.saved-logo {
+  width: 22.49px;
+  height: 16.5px;
+  top: -10px;
+}
+
+.saved-text {
+  height: 18px;
+  font-size: 14px;
+  color: rgba(144, 143, 145, 1);
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.header-button {
+  display: flex;
+  margin-right: 40px;
+}
+
+.chat-text-button{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  align-items: center;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  transition: background 0.2s ease, color 0.2s ease;
+  border: none;
+}
+
+.chat-text-button:hover {
+  background: rgba(230, 220, 239, 1);
+  color: rgba(105, 76, 128, 1);
+  cursor: pointer;
+}
+
+.chat-text-logo path,
+.chat-text-logo rect,
+.chat-text-logo circle,
+.chat-text-logo polygon {
+  fill: currentColor !important;
+}
+
+.note-pencil-button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  align-items: center;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  transition: background 0.2s ease, color 0.2s ease;
+  border: none;
+}
+
+.note-pencil-button:hover {
+  background: rgba(230, 220, 239, 1);
+  color: rgba(105, 76, 128, 1);
+  cursor: pointer;
+}
+
+.note-pencil-button path,
+.note-pencil-button rect,
+.note-pencil-button circle,
+.note-pencil-button polygon {
+  fill: currentColor !important;
+}

@@ -1,0 +1,18 @@
+{
+  "data" : {
+    "today_messages": [
+      {
+        "id": 1,
+        "message": "Lorem ipsum dolor sit amet consectetur."
+      },
+      {
+        "id": 2,
+        "message": "Lorem ipsum dolor sit amet consectetur."
+      },
+      {
+        "id": 3,
+        "message": "Lorem ipsum dolor sit amet consectetur."
+      }
+    ]
+  }
+}

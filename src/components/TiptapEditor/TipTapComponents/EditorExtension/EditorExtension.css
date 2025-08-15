@@ -1,0 +1,30 @@
+.text-extension {
+  width: 76px;
+  height: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: none;
+  margin-right: 5px;
+  background: rgb(255, 255, 255);
+  color: rgba(122, 121, 123, 1);
+}
+
+.text-extension:hover {
+  background: rgba(230, 220, 239, 1);
+  color: rgba(105, 76,128,1);
+}
+
+.page-extension {
+  width: 76px;
+  height: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgba(122, 121, 123, 1);
+}
+
+.page-extension:hover {
+  background: rgba(230, 220, 239, 1);
+  color: rgba(105, 76,128,1);
+}

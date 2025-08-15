@@ -1,0 +1,88 @@
+.chat-container {
+  display: flex;
+  width: 100%;
+}
+
+.online-icon {
+  position: relative;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.chat-left {
+  display: flex;
+}
+
+.chat-image {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  background: white;
+}
+
+.chat-badge {
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  background-color: rgba(28, 127, 70, 1);
+  padding: 3px 3px;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+.chat-name {
+  color: rgba(230, 228, 233, 1);
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.chat-right {
+ display: flex;
+  position: relative;
+  margin-left: auto;
+  gap: 8px;
+}
+
+.setting-button {
+  width: 20px;
+  height: 26px;
+  margin-right: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.setting-button-image {
+  width: 18px;
+  height: 16px;
+}
+
+.question-mark-button {
+  width: 20px;
+  height: 26px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.question-mark-image {
+  width: 16px;
+  height: 16px;
+}

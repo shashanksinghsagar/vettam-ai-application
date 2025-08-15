@@ -1,0 +1,6 @@
+.chat-history {
+  width: 212px;
+  height: 191px;
+  display: flex;
+  gap: 4px
+}

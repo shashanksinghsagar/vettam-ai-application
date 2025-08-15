@@ -1,0 +1,49 @@
+.notification-image {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+}
+
+.notification-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.notification-icon {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.notification-icon .icon {
+  width: 18px;
+  height: 18px;
+}
+
+.notification-icon .badge {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  background-color: rgba(211, 66 , 62, 1);
+  color: white;
+  font-size: 10px;
+  font-weight:100;
+  padding: 1px 3px;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.notification {
+  width: 100%;
+  height: auto;
+}

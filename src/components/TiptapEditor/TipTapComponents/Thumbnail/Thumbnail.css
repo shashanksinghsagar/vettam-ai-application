@@ -1,0 +1,71 @@
+.thumbnail-container{
+  border: none;
+  width: 305px;
+  height: 680px;
+}
+
+.all-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns {
+  height: 18px;
+  transform: rotate(0deg);
+  opacity: 1;
+  padding: 2px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(122, 121, 123, 1); 
+  margin-left: 2px; 
+}
+
+.btns.active {
+  color: rgba(105, 76, 128, 1);
+  border-bottom: 1px solid rgba(105, 76, 128, 1);
+}
+
+.caret-left-icon-button {
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  top: 3px
+}
+
+.caret-left-icon {
+  width: 8px;
+  height: 8px;
+  object-fit: contain;
+}
+
+.divider {
+  border: 0.5px solid rgba(165, 164, 167, 1);
+  width: 305px;
+}
+
+.pdf-image-container {
+  text-align: center;
+}
+
+.pdf-image {
+  width: 155px;
+  height: 200px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}

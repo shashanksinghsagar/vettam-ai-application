@@ -1,0 +1,15 @@
+/* .navbar-footer {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  background: rgba(79,56,97,1);
+  padding: 4px 2px;
+} */
+
+.notification-divider {
+  width: calc(100% - 10px);
+  height: 0;
+  border: 0.1px solid var(--Stroke_Inverse-Divider, rgba(159, 140, 175, 1));
+  opacity: 1;
+  margin: 0 auto;
+}

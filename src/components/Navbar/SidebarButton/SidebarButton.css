@@ -1,0 +1,39 @@
+.sidebar-buttons {
+  width: 196px;
+  height: 24px;
+  transform: rotate(0deg);
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  padding: 4px 6px;
+  background: rgba(105, 76, 128, 1);
+  border: none;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  color: rgba(252, 250, 255, 1); /* Text & icon default color */
+  line-height: 100%;
+  letter-spacing: 0.5px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.sidebar-buttons:hover {
+  background: rgba(255, 255, 255, 1);
+  color: rgba(105, 76, 128, 1); /* Text & icon hover color */
+  cursor: pointer;
+}
+
+.sidebar-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.sidebar-icon path,
+.sidebar-icon rect,
+.sidebar-icon circle,
+.sidebar-icon polygon {
+  fill: currentColor !important;
+}

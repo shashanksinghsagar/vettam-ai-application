@@ -1,0 +1,62 @@
+{
+  "data" : {
+    "sidebar_type": [
+    {
+      "id": 1,
+      "label": "Features"
+    },
+    {
+      "id": 2,
+      "label": "Tools"
+    }
+    ],
+    "sidebar_items_features": [
+      {
+        "id": 1,
+        "label": "Workspace",
+        "icon": "workspace_icon.svg"
+      },
+      {
+        "id": 2,
+        "label": "Research",
+        "icon": "research_icon.svg"
+      },
+      {
+        "id": 3,
+        "label": "Translate",
+        "icon": "translate_icon.svg"
+      },
+      {
+        "id": 4,
+        "label": "Write",
+        "icon": "write_icon.svg"
+      }
+    ],
+    "sidebar_items_tools": [
+      {
+        "id": 1,
+        "label": "Editor",
+        "icon": "workspace_icon.svg"
+      },
+      {
+        "id": 2,
+        "label": "Bookmarks",
+        "icon": "research_icon.svg"
+      }
+    ],
+    "today_messages": [
+      {
+        "id": 1,
+        "message": "Lorem ipsum dolor sit amet consectetur."
+      },
+      {
+        "id": 2,
+        "message": "Lorem ipsum dolor sit amet consectetur."
+      },
+      {
+        "id": 3,
+        "message": "Lorem ipsum dolor sit amet consectetur."
+      }
+    ]
+  }
+}

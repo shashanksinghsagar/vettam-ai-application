@@ -1,0 +1,320 @@
+/* .editor-component {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 25px;
+}
+
+.text-extension {
+  width: 76px;
+  height: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: none;
+  margin-right: 5px;
+  background: rgb(255, 255, 255);
+  color: rgba(122, 121, 123, 1);
+}
+
+.text-extension:hover {
+  background: rgba(230, 220, 239, 1);
+  color: rgba(105, 76,128,1);
+}
+
+.page-extension {
+  width: 76px;
+  height: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgba(122, 121, 123, 1);
+}
+
+.page-extension:hover {
+  background: rgba(230, 220, 239, 1);
+  color: rgba(105, 76,128,1);
+}
+
+.editor-extension {
+  display: flex;
+  width: 100%;
+}
+
+.ProseMirror {
+  min-height: 100%;
+  outline: none;
+}
+
+.editor-wrapper-t {
+  display: flex;
+  width: 1200px;
+}
+
+.editor-wrapper {
+  background: #f0f0f0;
+  padding: 10px 150px;
+  justify-content: center;
+  height: 720px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.thumbnail-index-search-container {
+  width: 245px;
+  height: 75vh;
+}
+
+.a4-page {
+  background: white;
+  width: 165mm;
+  min-height: 97mm;
+  margin: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  overflow-y: visible;
+  page-break-after: always;
+  border: 1px solid black;
+}
+
+.editor-content {
+  overflow-y: visible;
+  page-break-after: always;
+  border: 1px solid red;
+}
+
+.page-break {
+  page-break-before: always;
+  break-before: page;
+  height: 0;
+  margin: 0;
+  display: block;
+}
+
+.a4-page {
+  position: relative;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.a4-page .ProseMirror {
+  height: 100%;
+  overflow: hidden;
+  outline: none;
+}
+ */
+
+
+ /* EditorComponent.css - Using your existing styles with fixes */
+
+.editor-component {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 25px;
+}
+
+.text-extension {
+  width: 76px;
+  height: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: none;
+  margin-right: 5px;
+  background: rgb(255, 255, 255);
+  color: rgba(122, 121, 123, 1);
+  cursor: pointer;
+}
+
+.text-extension:hover {
+  background: rgba(230, 220, 239, 1);
+  color: rgba(105, 76,128,1);
+}
+
+.page-extension {
+  width: 76px;
+  height: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgba(122, 121, 123, 1);
+  cursor: pointer;
+}
+
+.page-extension:hover {
+  background: rgba(230, 220, 239, 1);
+  color: rgba(105, 76,128,1);
+}
+
+.editor-extension {
+  display: flex;
+  width: 100%;
+}
+
+.ProseMirror {
+  min-height: 100%;
+  outline: none;
+  overflow: visible;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.ProseMirror p {
+  margin: 0 0 1em 0;
+}
+
+.editor-wrapper-t {
+  display: flex;
+  width: 1200px;
+}
+
+.editor-wrapper {
+  background: #f0f0f0;
+  padding: 10px 150px;
+  justify-content: center;
+  height: 720px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.thumbnail-index-search-container {
+  width: 245px;
+  height: 75vh;
+}
+
+.a4-page {
+  background: white;
+  width: 165mm;
+  min-height: 97mm;
+  margin: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  overflow-y: visible;
+  page-break-after: always;
+  position: relative;
+  cursor: text;
+  padding: 10px;
+}
+
+.a4-page.active-page {
+  border: 2px solid #007bff;
+  background: #f8f9ff;
+}
+
+.a4-page .ProseMirror {
+  height: auto;
+  min-height: calc(97mm - 20px); /* Account for padding */
+  max-height: none;
+  overflow: visible;
+  outline: none;
+}
+
+.editor-content {
+  overflow-y: visible;
+  page-break-after: always;
+  height: 100%;
+}
+
+.page-break {
+  page-break-before: always;
+  break-before: page;
+  height: 0;
+  margin: 0;
+  display: block;
+}
+
+/* Control group styles for menu bars */
+.control-group {
+  padding: 10px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.button-group button {
+  padding: 6px 12px;
+  border: 1px solid #ced4da;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  min-width: 32px;
+  height: 32px;
+}
+
+.button-group button:hover {
+  background: #e9ecef;
+}
+
+.button-group button.is-active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.button-group button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button-group select {
+  padding: 6px 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 32px;
+}
+
+.custom-font-family {
+  min-width: 120px;
+}
+
+.custom-font-size {
+  min-width: 80px;
+}
+
+.custom-heading-selector {
+  min-width: 80px;
+}
+
+.custom-color-selector {
+  min-width: 100px;
+}
+
+/* Page menu bar styles */
+.page-menu-bar {
+  padding: 10px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.page-menu-bar .button-group {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.page-menu-bar button {
+  padding: 8px 16px;
+  border: 1px solid #ced4da;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.page-menu-bar button:hover {
+  background: #e9ecef;
+}
+
+/* Loading states */
+div[class*="Loading"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #6c757d;
+  font-style: italic;
+}
